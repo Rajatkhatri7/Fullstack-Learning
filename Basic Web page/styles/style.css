@@ -10,31 +10,34 @@ h1{
     text-align: center;
     margin: 0;
     padding: 20px 0;    
-    color: #cfcd5b;
+    color: #d36633;
     text-shadow: 3px 3px 1px rgb(185, 155, 130);
   }
-}
+
 
 p,li{
 
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 2px;
     line-height: 2;
 
 }
 
 body{
-    background-color: aqua;
+    background-color: rgba(42, 223, 230, 0.623);
     margin: 0 auto;
     width: 700px;
     border: 4px solid black;
     padding: 0 20px 20px 20px;
-/* psdding: top bottom right left */
+/* padding: top bottom right left */
 
 }
 img{
 
-    /* The <body> is a block element, meaning it takes up space on the page. A block element can have margin and other spacing values applied to it. In contrast, images are inline elements. It is not possible to apply margin or spacing values to inline elements. So to apply margins to the image, we must give the image block-level behavior using display: block;. */
+    /* The <body> is a block element, meaning it takes up space on the page. 
+    A block element can have margin and other spacing values applied to it.
+    In contrast, images are inline elements. It is not possible to apply margin or spacing values to inline elements.
+    So to apply margins to the image, we must give the image block-level behavior using display: block;. */
     display: block;
     margin: 0 auto;
 }
