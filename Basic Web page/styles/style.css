@@ -29,6 +29,7 @@ body{
     width: 700px;
     border: 4px solid black;
     padding: 0 20px 20px 20px;
+    border-radius: 4px;
 /* padding: top bottom right left */
 
 }
@@ -40,6 +41,7 @@ img{
     So to apply margins to the image, we must give the image block-level behavior using display: block;. */
     display: block;
     margin: 0 auto;
+    cursor: pointer;
 }
 
 
